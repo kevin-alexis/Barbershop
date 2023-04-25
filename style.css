@@ -1,0 +1,293 @@
+body{
+    background: #CCCCCC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px;
+    height: 170px;
+}
+
+.main-index{
+    width: 940px;
+    margin: 0 auto;
+    background-color: #6D492E;
+}
+
+.main-contacto{
+    padding: 0 40px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.contenedor img{
+    width: 120px;
+}
+
+nav{
+    position:absolute;
+    top: 65px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: #6D492E;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+}
+
+.productos li{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    text-align: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 20px;
+    border-style: double;
+}
+
+.productos li:hover{
+    border-color: #6d492ee7;
+}
+
+.productos li:active{
+    border-color: #6D492E;
+}
+
+.productos h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 26px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-image: url(./assets/images/bg.jpg);
+    padding: 17px;
+}
+
+
+footer img{
+    width: 120px;
+}
+
+.Copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label,
+form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin-bottom:20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox,
+.horario{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.02);
+}
+
+table{
+    margin: 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center; 
+}
+
+/*CSS para Home*/
+.titulo-principal{
+    border: 10px solid black;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear:left;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.principal{
+    margin-top: 20px;
+    background: #6D492E;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.principal p{
+    color: rgb(248, 238, 220);
+    margin-bottom: 20px;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: talic;
+}
+
+.principal em{
+    font-style: talic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 40px;
+    
+}
+
+.mapa p{
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 850px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 40px;
+    background: #6D492E;
+}
+
+.diferenciales li{
+    color: white;
+}
+
+.imagenDiferenciales{
+    width: 500px;
+    transition: 400ms;
+    
+}
+
+.imagenDiferenciales:hover{
+    opacity: 0.7;
+    box-shadow: 10px 10px 30px #000000;
+}
+
+.video{
+    width: 560px;
+    margin: 1em auto;
+}
+
+.diferenciales-left,
+.diferenciales-right{
+    width: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.diferenciales-left ul,
+.diferenciales-right ul{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content:"✔";
+}
+
+@media screen and(max-width:480px){
+
+}
